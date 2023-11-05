@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primarycolor: rgb(7, 59, 83);
+  --hovercolor: coral;
+  --lightbck: rgba(128, 128, 128, 0.2);
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  padding: 23px;
+  font-size: 17px;
+}
+.title {
+  font-size: 25px;
+}
+.title a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+nav ul li a img {
+  width: 25px;
+  height: 25px;
+}
+nav ul a {
+  display: flex;
+  align-items: center;
+}
+
+nav button {
+  padding: 10px 15px;
+  border: 2px solid var(--primarycolor);
+  border-radius: 10px;
+  margin: auto 0px;
+  color: var(--primarycolor);
+  position: relative;
+  left: 60px;
+}nav button a{
+  color: var(--primarycolor);
+
+}
+.title img {
+  width: 40px;
+  height: 40px;
+}
+.title img:hover {
+  content: url(images/dimensionsonhover.png);
+  width: 40px;
+  height: 40px;
+}
+nav ul li a:hover {
+  color: var(--hovercolor);
+}
+button:hover,nav button a:hover {
+  background-color: var(--primarycolor);
+  color: white;
+}
+.impfooter {
+    background-color: var(--primarycolor);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  footer ul li {
+    list-style: none;
+    padding: 5px;
+  }
+  footer * {
+    background-color: var(--primarycolor);
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: var(--hovercolor);
+  }
+  .copyright {
+    padding-top: 20px;
+    color: gray;
+    text-align: center;
+    background-color: var(--primarycolor);
+  }
+  .icons img{
+    width: 35px;
+    height: 35px;
+  }
+  .icons a{
+    margin-left: 20px;
+  
+  }section{
+
+    margin: 2%;
+    padding: 5%;
+  }
+  .stcontent{
+    text-align: center;
+  }
+  .stcontent h1{
+    color: var(--primarycolor);
+    font-size: 30px;
+  }
+  .card{
+    margin: 5%;
+    border-radius: 20px;
+    padding: 5%;
+    color: white;
+    width: 80vw;
+    height: 30vh;
+    
+  }.card1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.1)), url(images/busimg2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .card2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.1)), url(images/busimg1.jpg);
+    background-size: cover;
+    background-position: top;
+    
+  }
+  .card3{
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.1)), url(images/busimg3.jpg);
+    
+  }
+  .card4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.1)), url(images/busimg4.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+  }
+  
