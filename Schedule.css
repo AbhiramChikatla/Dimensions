@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primarycolor: rgb(7, 59, 83);
+  --hovercolor: coral;
+  --lightbck: rgba(128, 128, 128, 0.2);
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  padding: 23px;
+  font-size: 17px;
+}
+.title {
+  font-size: 25px;
+}
+.title a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+nav ul li a img {
+  width: 25px;
+  height: 25px;
+}
+nav ul a {
+  display: flex;
+  align-items: center;
+}
+
+nav button {
+  padding: 10px 15px;
+  border: 2px solid var(--primarycolor);
+  border-radius: 10px;
+  margin: auto 0px;
+  color: var(--primarycolor);
+  position: relative;
+  left: 60px;
+}nav button a{
+  color: var(--primarycolor);
+
+}
+.title img {
+  width: 40px;
+  height: 40px;
+}
+.title img:hover {
+  content: url(images/dimensionsonhover.png);
+  width: 40px;
+  height: 40px;
+}
+nav ul li a:hover {
+  color: var(--hovercolor);
+}
+button:hover,nav button a:hover {
+  background-color: var(--primarycolor);
+  color: white;
+}
+.impfooter {
+  background-color: var(--primarycolor);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+footer ul li {
+  list-style: none;
+  padding: 5px;
+}
+footer * {
+  background-color: var(--primarycolor);
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: var(--hovercolor);
+}
+.copyright {
+  padding-top: 20px;
+  color: gray;
+  text-align: center;
+  background-color: var(--primarycolor);
+}
+.icons img {
+  width: 35px;
+  height: 35px;
+}
+.icons a {
+  margin-left: 20px;
+}
+.query {
+  padding: 5% 2%;
+  /* text-align: center; */
+}
+section{
+  padding: 2%;
+}
+.query h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.action{
+  display: flex;
+  padding: 5% 5%;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid var(--lightbck);
+}
+input{
+  padding: 10px 15px;
+  margin: 10px;
+  border: 2px solid black;
+}
+.img img{
+  width: 250px;
+  height: 250px;
+}
+input[type='submit'],input[type='reset']{
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--primarycolor);
+  color: white;
+  border-radius: 20px;
+  border-color: var(--primarycolor);
+  outline: 0;
+}
+input[type='submit']:hover,input[type='reset']:hover{
+  color: var(--hovercolor);
+}.map{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}

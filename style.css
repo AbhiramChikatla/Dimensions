@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primarycolor: rgb(7, 59, 83);
+  --hovercolor: coral;
+  --lightbck: rgba(128, 128, 128, 0.2);
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  padding: 23px;
+  font-size: 17px;
+}
+.title {
+  font-size: 25px;
+}
+.title a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+nav ul li a img {
+  width: 25px;
+  height: 25px;
+}
+nav ul a {
+  display: flex;
+  align-items: center;
+}
+
+nav button {
+  padding: 10px 15px;
+  border: 2px solid var(--primarycolor);
+  border-radius: 10px;
+  margin: auto 0px;
+  color: var(--primarycolor);
+  position: relative;
+  left: 60px;
+}nav button a{
+  color: var(--primarycolor);
+
+}
+.title img {
+  width: 40px;
+  height: 40px;
+}
+.title img:hover {
+  content: url(images/dimensionsonhover.png);
+  width: 40px;
+  height: 40px;
+}
+nav ul li a:hover {
+  color: var(--hovercolor);
+}
+button:hover,nav button a:hover{
+  background-color: var(--primarycolor);
+  color: white;
+}
+.first {
+  padding: 100px;
+  /* border: 2px solid black; */
+}
+.content {
+  width: 30vw;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+}
+.content p:nth-child(1) {
+  color: var(--primarycolor);
+}
+.content h1 {
+  font-size: 30px;
+}
+.image img {
+  border-radius: 45px;
+  height: 450px;
+}
+.content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--primarycolor);
+  color: white;
+  border-radius: 20px;
+  border-color: var(--primarycolor);
+  outline: 0;
+}
+.content button:hover {
+  color: var(--hovercolor);
+}
+.brands {
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 10px;
+  color: grey;
+  border-top: 1px solid rgba(128, 128, 128, 0.2);
+}
+.logos img {
+  height: 60px;
+  width: 60px;
+  opacity: 0.9;
+}
+.logos {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.second button {
+  padding: 10px 20px;
+  background-color: var(--primarycolor);
+  color: white;
+  border-radius: 20px;
+  border-color: var(--primarycolor);
+  outline: 0;
+}
+.second button:hover {
+  color: var(--hovercolor);
+}
+.container {
+  display: flex;
+  padding: 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.jars {
+  width: 20vw;
+  box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.2);
+  margin: 20px;
+  border-radius: 10px;
+  padding: 15px;
+}
+.jars img {
+  width: 280px;
+  height: 280px;
+  border-radius: 5px;
+}
+.jars p {
+  margin-bottom: 10px;
+}
+.jars .arrowright {
+  width: 20px;
+  height: 20px;
+}
+.jars a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.jars a:hover {
+  color: blue;
+}
+.navicons {
+  display: flex;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+.lefticon {
+  margin-right: 15px;
+}
+.view {
+  margin: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--lightbck);
+  padding: 20px 15px;
+  color: var(--primarycolor);
+}
+
+.circle {
+  background-color: var(--primarycolor);
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.fourth img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+.singlecard {
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid var(--lightbck);
+}
+.info button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--primarycolor);
+  color: white;
+  border-radius: 20px;
+  border-color: var(--primarycolor);
+  outline: 0;
+}
+.meeting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.review {
+  margin: 50px;
+  padding: 40px;
+}
+.review h2 {
+  color: var(--primarycolor);
+}
+.listofreviews {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.underline {
+  border: 1px solid var(--lightbck);
+}
+.viewitems {
+  text-align: center;
+}
+.viewitems h4 {
+  padding-bottom: 15px;
+}
+.viewitems img {
+  width: 45px;
+  height: 45px;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+}
+.stars img {
+  background-color: var(--lightbck);
+}
+.impfooter {
+  background-color: var(--primarycolor);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+footer ul li {
+  list-style: none;
+  padding: 5px;
+}
+footer * {
+  background-color: var(--primarycolor);
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: var(--hovercolor);
+}
+.copyright {
+  padding-top: 20px;
+  color: gray;
+  text-align: center;
+  background-color: var(--primarycolor);
+}
+.icons img {
+  width: 35px;
+  height: 35px;
+}
+.icons a {
+  margin-left: 20px;
+}
